@@ -1,0 +1,135 @@
+body
+{
+    background-image: url(bg2.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.content
+{
+    margin: 5% auto;
+    width: 1000px;
+    height: 500px;
+    border: 2px solid;
+    background-color: rgba(25, 178, 230, 0.5);
+    box-shadow: 15px 15px 15px 10px rgba(0, 0, 0, .5);
+}
+
+.head, .link {
+    text-align: center;
+}
+
+.profilkep {
+    width: 180px;
+    height: 180px;
+    border-radius: 25%;
+    padding: 1px;
+    transition: all 0.5s ease-in-out;
+}
+
+.profilkep:hover {
+ transform: scale(1.2);
+}
+
+.profile-image {
+    margin-top: -60px;
+}
+
+.name-headline
+{
+	text-align: center;
+}
+
+h1
+{
+	font-size: 18px;
+	line-height: 25px;
+}
+
+h2
+{
+	color: GoldenRod;
+    font-size: 14px;
+}
+
+.about
+  {
+    width: 100%;
+    height: 27.5%;
+  }
+  
+  table
+  {
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  td
+  {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+  }
+
+.elsosor {
+    border-right: 1px solid black;
+}
+  
+.aboutszoveg
+  {
+    padding: 0 15px;
+    text-align: center;
+  }
+  
+.aboutcim
+  {
+    text-align:center;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+.munkaim {
+    text-align:center;
+    font-size: 25px;
+    line-height: 25px;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+
+.munkaim:hover{
+    transform: translateY(-15px);
+    color:orange;
+}
+
+* {
+    text-decoration: none;
+    text-transform: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    color: white;
+}
+
+li {
+    box-sizing: content-box;
+    margin: 10px;
+    display: inline;
+}
+
+i{
+    padding: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+i:hover{
+    transform: translateY(-15px);
+    color:orange;
+}
